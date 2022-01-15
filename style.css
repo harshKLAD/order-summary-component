@@ -8,21 +8,43 @@
   background-color: hsl(225, 100%, 98%);
 }
 .Desaturated-blue {
-  background-color: hsl(224, 23%, 55%);
+  color: hsl(224, 23%, 55%);
 }
 .Dark-blue {
-  background-color: hsl(223, 47%, 23%);
+  color: hsl(223, 47%, 23%);
 }
 
 .white {
   color: white;
 }
 .block-0 {
-  background-color: black;
+  background: url("/images/pattern-background-desktop.svg") no-repeat
+    hsl(225, 100%, 94%);
+  margin: auto;
+}
+
+.container {
+  width: 375px;
+  margin: auto;
+}
+
+.font-main {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-900 {
+  font-weight: 900;
 }
 
 .card {
-  border: 1px red solid;
   border-radius: 20px;
   background-color: white;
 }
@@ -72,6 +94,16 @@
   margin: 10px 0;
   border-radius: 15px;
   padding: 20px 0;
+}
+
+.block-5:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.block-6 {
+  margin: 10px 0;
+  border-radius: 15px;
+  padding: 10px 0;
 }
 
 .margin-0 {
