@@ -1,0 +1,79 @@
+.Pale-blue {
+  color: hsl(225, 100%, 94%);
+}
+.Bright-blue {
+  background-color: hsl(245, 75%, 52%);
+}
+.Very-pale-blue {
+  background-color: hsl(225, 100%, 98%);
+}
+.Desaturated-blue {
+  background-color: hsl(224, 23%, 55%);
+}
+.Dark-blue {
+  background-color: hsl(223, 47%, 23%);
+}
+
+.white {
+  color: white;
+}
+.block-0 {
+  background-color: black;
+}
+
+.card {
+  border: 1px red solid;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.img-css {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.p-font {
+  font-size: 16px;
+}
+
+.block-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.img-music {
+  margin: 5px;
+}
+
+.block-3 {
+  display: flex;
+}
+
+.block-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.block-5 {
+  margin: 10px 0;
+  border-radius: 15px;
+  padding: 20px 0;
+}
+
+.margin-0 {
+  margin: 0;
+}
